@@ -22,10 +22,10 @@ graph TD
 
 Time limits:
 
-· Bug fixes: 4 hours before escalation
-· MVP features: 2 days development
-· Architectural changes: 1 week design + implementation
-· Research tasks: 1 day for proof-of-concept
+- Bug fixes: 4 hours before escalation
+- MVP features: 2 days development
+- Architectural changes: 1 week design + implementation
+- Research tasks: 1 day for proof-of-concept
 
 2. 🏗️ Architectural Rules
 
@@ -35,10 +35,10 @@ Golden rule: Every module must work in conditions of distributed network of inde
 
 Specific constraints:
 
-· ❌ Forbidden: Direct access to other nodes' databases
-· ✅ Required: All inter-node communication through open APIs
-· ✅ Priority: Local data over federated data
-· ✅ Mandatory: Each node must be able to work in isolation
+- ❌ Forbidden: Direct access to other nodes' databases
+- ✅ Required: All inter-node communication through open APIs
+- ✅ Priority: Local data over federated data
+- ✅ Mandatory: Each node must be able to work in isolation
 
 Modular Responsibility Boundaries
 
@@ -53,9 +53,9 @@ modules/
 
 Forbidden dependencies:
 
-· Federation module must not depend on UI components
-· Reputation system must not directly access task database
-· Agents must not know about internal structure of other nodes
+- Federation module must not depend on UI components
+- Reputation system must not directly access task database
+- Agents must not know about internal structure of other nodes
 
 3. 📝 Code Standards
 
@@ -63,15 +63,15 @@ Typing for Reliability
 
 Backend (Python):
 
-· Full type annotations for all functions
-· Pydantic for all API schemas and validation
-· MyPy in strict mode as part of CI/CD
+- Full type annotations for all functions
+- Pydantic for all API schemas and validation
+- MyPy in strict mode as part of CI/CD
 
 Frontend (TypeScript):
 
-· Strict TypeScript with any prohibition
-· Clear interfaces for all API interactions
-· Type validation at build stage
+- Strict TypeScript with any prohibition
+- Clear interfaces for all API interactions
+- Type validation at build stage
 
 API Contract Example
 
@@ -106,10 +106,10 @@ graph BT
 
 Target coverage:
 
-· Federation modules: 85%+
-· Agent business logic: 80%+
-· API endpoints: 75%+
-· UI components: 70%+
+- Federation modules: 85%+
+- Agent business logic: 80%+
+- API endpoints: 75%+
+- UI components: 70%+
 
 meowNet-Specific Tests
 
@@ -189,9 +189,9 @@ quadrantChart
 
 80/20 Rule for MVP
 
-· First: Working federated foundation
-· Then: Optimization and polish
-· Exception: Security and data integrity
+- First: Working federated foundation
+- Then: Optimization and polish
+- Exception: Security and data integrity
 
 7. 🔒 Security and Trust
 
@@ -237,9 +237,9 @@ checks:
 
 Performance Budget
 
-· API response time: 95th percentile < 500ms
-· Inter-node synchronization delay: < 2 seconds
-· Memory usage per node: < 512MB baseline
+- API response time: 95th percentile < 500ms
+- Inter-node synchronization delay: < 2 seconds
+- Memory usage per node: < 512MB baseline
 
 9. 🎯 Focus on meowNet Uniqueness
 
@@ -247,22 +247,22 @@ Development Priorities by Project Principles
 
 HIGH priority (symbiosis core):
 
-· Federated node interaction protocol
-· Agent semantic profile system
-· Task mechanism with multi-level context
-· Basic reputation system
+- Federated node interaction protocol
+- Agent semantic profile system
+- Task mechanism with multi-level context
+- Basic reputation system
 
 MEDIUM priority (standard components):
 
-· UI for human agents
-· API for AI agents
-· Search and recommendation system
+- UI for human agents
+- API for AI agents
+- Search and recommendation system
 
 LOW priority (can be deferred):
 
-· Advanced analytics
-· Mobile applications
-· Theme customization
+- Advanced analytics
+- Mobile applications
+- Theme customization
 
 10. 🔄 Development Process
 
@@ -277,19 +277,19 @@ Code Review with Principles Focus
 
 Questions for reviewer:
 
-· Does this preserve node autonomy?
-· Does it work for all agent types?
-· Does it transmit minimally necessary data?
-· Does it comply with system ontology?
+- Does this preserve node autonomy?
+- Does it work for all agent types?
+- Does it transmit minimally necessary data?
+- Does it comply with system ontology?
 
 11. 🚀 Immediate Actions
 
 Setup Checklist
 
-· Development environment: Docker compose with hot-reload
-· Boilerplate: Code generators for node and agent modules
-· Test network: 3 minimal nodes for federation debugging
-· Tools: Utilities for monitoring inter-node interaction
+- Development environment: Docker compose with hot-reload
+- Boilerplate: Code generators for node and agent modules
+- Test network: 3 minimal nodes for federation debugging
+- Tools: Utilities for monitoring inter-node interaction
 
 Quick Start Template
 

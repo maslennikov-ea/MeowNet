@@ -10,11 +10,11 @@ Description: Creates tasks and requests help.
 
 Key Actions:
 
-· Problem formulation and context definition
-· Task complexity and category determination
-· Participation in clarification dialogues
-· Final solution selection/confirmation
-· Quality assessment of received help
+- Problem formulation and context definition
+- Task complexity and category determination
+- Participation in clarification dialogues
+- Final solution selection/confirmation
+- Quality assessment of received help
 
 Work Scenarios:
 
@@ -34,18 +34,18 @@ Description: Provides solutions and assistance.
 
 Solver Types:
 
-· Specialist: Deep knowledge in narrow area
-· Generalist: Broad perspective, ability to see connections
-· Mentor: Helps with methodology and approaches
-· Critic: Identifies weaknesses and risks
+- Specialist: Deep knowledge in narrow area
+- Generalist: Broad perspective, ability to see connections
+- Mentor: Helps with methodology and approaches
+- Critic: Identifies weaknesses and risks
 
 Key Actions:
 
-· Search for suitable tasks by skills and interests
-· Context analysis and solution formulation
-· Participation in dialogues for detail clarification
-· Providing justified answers
-· Receiving feedback for reputation improvement
+- Search for suitable tasks by skills and interests
+- Context analysis and solution formulation
+- Participation in dialogues for detail clarification
+- Providing justified answers
+- Receiving feedback for reputation improvement
 
 3. Facilitator
 
@@ -53,11 +53,11 @@ Description: Coordinates complex collaborations in cells.
 
 Key Actions:
 
-· Cell formation for complex tasks
-· Role distribution among participants
-· Discussion process coordination
-· Consensus achievement monitoring
-· Final solution recording
+- Cell formation for complex tasks
+- Role distribution among participants
+- Discussion process coordination
+- Consensus achievement monitoring
+- Final solution recording
 
 Cell Work Scenario:
 
@@ -90,10 +90,10 @@ Description: Combines disparate solutions into holistic picture.
 
 Key Actions:
 
-· Analysis of multiple partial solutions
-· Pattern and connection identification
-· Creation of holistic solution from components
-· Meta-conclusions and insights formulation
+- Analysis of multiple partial solutions
+- Pattern and connection identification
+- Creation of holistic solution from components
+- Meta-conclusions and insights formulation
 
 Special Feature: Often works with decomposed tasks
 
@@ -103,11 +103,11 @@ Description: Monitors quality and maintains standards.
 
 Key Actions:
 
-· Content moderation for rule compliance
-· Systemic problem identification and escalation
-· Conflict resolution assistance
-· Process improvement recommendations
-· New participant training
+- Content moderation for rule compliance
+- Systemic problem identification and escalation
+- Conflict resolution assistance
+- Process improvement recommendations
+- New participant training
 
 6. Administrator
 
@@ -115,11 +115,11 @@ Description: Manages technical and social node infrastructure.
 
 Key Actions:
 
-· Node setup and operation support
-· User and access rights management
-· Performance and system health monitoring
-· Technical problem resolution
-· Platform updates and development
+- Node setup and operation support
+- User and access rights management
+- Performance and system health monitoring
+- Technical problem resolution
+- Platform updates and development
 
 🔄 Role Interactions in Typical Scenarios
 
@@ -210,18 +210,18 @@ graph TB
 
 Initial Participation Level:
 
-· Initiator - can create tasks
-· Solver - can provide solutions
+- Initiator - can create tasks
+- Solver - can provide solutions
 
 With Experience Accumulation:
 
-· Synthesizer - after demonstrating generalization ability
-· Facilitator - after successful participation in several cells
+- Synthesizer - after demonstrating generalization ability
+- Facilitator - after successful participation in several cells
 
 Through Community Trust:
 
-· Curator - by community recommendation or selection
-· Administrator - technical role, requires special skills
+- Curator - by community recommendation or selection
+- Administrator - technical role, requires special skills
 
 💡 Role Model Principles
 
@@ -229,32 +229,32 @@ Through Community Trust:
 
 Each user can perform different roles in different contexts:
 
-· Be Initiator in professional area
-· Act as Solver in adjacent areas
-· Become Facilitator for topics with deep knowledge
+- Be Initiator in professional area
+- Act as Solver in adjacent areas
+- Become Facilitator for topics with deep knowledge
 
 2. Emergence
 
 Roles arise naturally from interactions:
 
-· Synthesizers emerge when working with complex tasks
-· Facilitators are identified during group work
-· Curators form from active and responsible participants
+- Synthesizers emerge when working with complex tasks
+- Facilitators are identified during group work
+- Curators form from active and responsible participants
 
 3. Contextuality
 
 Role effectiveness depends on context:
 
-· Specialist can be Solver in narrow area but Initiator in adjacent one
-· Experienced Facilitator in technical topics can be beginner in creative ones
+- Specialist can be Solver in narrow area but Initiator in adjacent one
+- Experienced Facilitator in technical topics can be beginner in creative ones
 
 4. Learning Through Participation
 
 Competence development occurs through:
 
-· Observation of experienced participants' work
-· Gradual complexity increase in accepted roles
-· Receiving community feedback
+- Observation of experienced participants' work
+- Gradual complexity increase in accepted roles
+- Receiving community feedback
 
 🔧 Role Model Integration with Technical Architecture
 

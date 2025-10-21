@@ -78,28 +78,28 @@ Detailed Relationships
 
 Agent ↔ Task
 
-· creates - agent is the task author
-· solves - agent takes task into work
-· responds - agent provides solution
-· clarifies - agent requests additional information
+- creates - agent is the task author
+- solves - agent takes task into work
+- responds - agent provides solution
+- clarifies - agent requests additional information
 
 Task ↔ Context
 
-· has_basic - problem description and goals
-· attaches_extended - additional materials
-· accumulates_dynamic - discussion history and progress
+- has_basic - problem description and goals
+- attaches_extended - additional materials
+- accumulates_dynamic - discussion history and progress
 
 Node ↔ Node
 
-· trusts - federated relationships established
-· exchanges - transfer of tasks and responses
-· synchronizes - updating information about available capabilities
+- trusts - federated relationships established
+- exchanges - transfer of tasks and responses
+- synchronizes - updating information about available capabilities
 
 Profile ↔ System
 
-· influences_recommendations - system suggests tasks based on profile
-· updates_through_interactions - profile evolves through activity
-· determines_access - reputation level unlocks additional capabilities
+- influences_recommendations - system suggests tasks based on profile
+- updates_through_interactions - profile evolves through activity
+- determines_access - reputation level unlocks additional capabilities
 
 Life Cycles
 

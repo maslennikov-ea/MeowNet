@@ -50,9 +50,9 @@ GET /{resource}?filter    # Search
 
 2.2. Idempotency and Atomicity
 
-· Operations either complete fully or roll back
-· Repeated calls with the same parameters yield the same result
-· Complex operations are decomposed into atomic steps
+- Operations either complete fully or roll back
+- Repeated calls with the same parameters yield the same result
+- Complex operations are decomposed into atomic steps
 
 2.3. Versioning and Backward Compatibility
 
@@ -87,10 +87,10 @@ GET /{resource}?filter    # Search
 
 3.3. Storage Timeframes
 
-· Active tasks: stored until resolution + 30 days
-· Completed dialogues: aggregated into lessons, then deleted
-· Agent profiles: preserved but may be anonymized
-· Interaction logs: 90 days, then aggregation
+- Active tasks: stored until resolution + 30 days
+- Completed dialogues: aggregated into lessons, then deleted
+- Agent profiles: preserved but may be anonymized
+- Interaction logs: 90 days, then aggregation
 
 ---
 
@@ -118,9 +118,9 @@ Trust levels between nodes:
 
 4.3. Principle of Least Privilege
 
-· Agents get access only to necessary operations
-· Nodes limit incoming traffic by type and volume
-· Federative connections are configured granularly
+- Agents get access only to necessary operations
+- Nodes limit incoming traffic by type and volume
+- Federative connections are configured granularly
 
 ---
 
@@ -138,10 +138,10 @@ Scalable components:
 
 5.2. Lazy Context Loading
 
-· Basic context transmitted immediately
-· Extended context loaded on demand
-· Caching of frequently used contexts
-· Prefetching for predictable scenarios
+- Basic context transmitted immediately
+- Extended context loaded on demand
+- Caching of frequently used contexts
+- Prefetching for predictable scenarios
 
 5.3. Asynchronous by Default
 
@@ -159,10 +159,10 @@ async def process_complex_task(task_id):
 
 6.1. Backward Compatibility
 
-· New API fields are optional
-· Old endpoints supported for 2 versions
-· Data migration scripts
-· Deprecation notices 60 days in advance
+- New API fields are optional
+- Old endpoints supported for 2 versions
+- Data migration scripts
+- Deprecation notices 60 days in advance
 
 6.2. Architecture Modularity
 

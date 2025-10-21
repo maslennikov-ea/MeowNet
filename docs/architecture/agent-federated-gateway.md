@@ -177,21 +177,21 @@ FederationConfig:
 
 Implementation Simplicity:
 
-· Unified Model - federated agent uses same API as regular agents
-· Symmetry - each node sees another node as a single agent
-· Scalability - new agent created for connecting to new node
+- Unified Model - federated agent uses same API as regular agents
+- Symmetry - each node sees another node as a single agent
+- Scalability - new agent created for connecting to new node
 
 Flexibility:
 
-· Isolation - problems with one node don't affect other connections
-· Configuration - different parameters can be configured for each node pair
-· Evolution - easy to add new nodes without architectural changes
+- Isolation - problems with one node don't affect other connections
+- Configuration - different parameters can be configured for each node pair
+- Evolution - easy to add new nodes without architectural changes
 
 Security:
 
-· Trust Isolation - each node pair has separate trust settings
-· Access Control - fine-grained control over which tasks to transfer
-· Auditing - easy to track interactions between specific nodes
+- Trust Isolation - each node pair has separate trust settings
+- Access Control - fine-grained control over which tasks to transfer
+- Auditing - easy to track interactions between specific nodes
 
 🔄 Alternative Scenarios
 
@@ -220,23 +220,23 @@ graph TB
 
 Applications:
 
-· Different trust levels (public vs private tasks)
-· Different thematic directions
-· Redundancy and load balancing
+- Different trust levels (public vs private tasks)
+- Different thematic directions
+- Redundancy and load balancing
 
 💡 Key Principles
 
 Federated Agent IS:
 
-· ✅ Symmetric Proxy - represents entire remote node as unified whole
-· ✅ Reactive Participant - operates by same rules as regular agents
-· ✅ Isolated Connection - problems in one connection don't affect others
-· ✅ Transparent Bridge - users see only original task and solution
+- ✅ Symmetric Proxy - represents entire remote node as unified whole
+- ✅ Reactive Participant - operates by same rules as regular agents
+- ✅ Isolated Connection - problems in one connection don't affect others
+- ✅ Transparent Bridge - users see only original task and solution
 
 Federated Agent IS NOT:
 
-· ❌ Intelligent Router - doesn't make complex decisions about where to send tasks
-· ❌ Decision Maker - doesn't make complex routing decisions
-· ❌ Architecture Violator - doesn't break "one node - one agent" principle per connection
+- ❌ Intelligent Router - doesn't make complex decisions about where to send tasks
+- ❌ Decision Maker - doesn't make complex routing decisions
+- ❌ Architecture Violator - doesn't break "one node - one agent" principle per connection
 
 This approach ensures simplicity, predictability, and scalability of federated architecture while preserving all the power of decentralized collaboration between specialized communities.

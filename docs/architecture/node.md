@@ -40,10 +40,10 @@ Task:
 
 Operations:
 
-· Create new tasks
-· Search tasks by criteria
-· Update statuses and context
-· Archival after expiration
+- Create new tasks
+- Search tasks by criteria
+- Update statuses and context
+- Archival after expiration
 
 3. Profile Registry (Profile Storage)
 
@@ -80,10 +80,10 @@ graph TD
 
 Matching criteria:
 
-· Semantic similarity of skills and task categories
-· Complexity matching with agent's successful task history
-· Complementarity (different agents get different aspects of complex tasks)
-· Temporal factors (task freshness, agent activity)
+- Semantic similarity of skills and task categories
+- Complexity matching with agent's successful task history
+- Complementarity (different agents get different aspects of complex tasks)
+- Temporal factors (task freshness, agent activity)
 
 5. Context Manager (Context Management)
 
@@ -91,9 +91,9 @@ Purpose: Attach and manage additional task context.
 
 Context levels:
 
-· Basic: Mandatory problem description
-· Extended: Files, links, examples (optional)
-· Dynamic: Discussion history, clarifications (formed during process)
+- Basic: Mandatory problem description
+- Extended: Files, links, examples (optional)
+- Dynamic: Discussion history, clarifications (formed during process)
 
 6. Reputation Calculator (Reputation System)
 
@@ -193,10 +193,10 @@ sequenceDiagram
 
 Reactive Model:
 
-· Node never initiates interactions - only responds to requests
-· No push notifications - agents poll for new tasks themselves
-· Stateless interaction - each request is independent
-· Idempotency - repeated requests with same parameters yield same result
+- Node never initiates interactions - only responds to requests
+- No push notifications - agents poll for new tasks themselves
+- Stateless interaction - each request is independent
+- Idempotency - repeated requests with same parameters yield same result
 
 On-Demand Semantics:
 
@@ -218,10 +218,10 @@ def find_tasks_for_agent(agent_id, limit=10):
 
 Scalability:
 
-· Each component can scale independently
-· Task Repository sharded by task categories
-· Matching Engine caches semantic indexes
-· Profile Registry replicated for reading
+- Each component can scale independently
+- Task Repository sharded by task categories
+- Matching Engine caches semantic indexes
+- Profile Registry replicated for reading
 
 This approach makes the node simple, predictable, and easily scalable while maintaining all necessary functionality for supporting collaboration between agents.
 
@@ -285,10 +285,10 @@ graph TD
 
 Cell roles:
 
-· Moderator: Coordinates process, monitors procedure
-· Experts (2-4): Provide subject matter expertise
-· Synthesizer: Generalizes proposals, formulates final solution
-· Critic: Identifies weaknesses and risks in proposals
+- Moderator: Coordinates process, monitors procedure
+- Experts (2-4): Provide subject matter expertise
+- Synthesizer: Generalizes proposals, formulates final solution
+- Critic: Identifies weaknesses and risks in proposals
 
 Phase 3: Task Decomposition and Aggregation
 
@@ -322,9 +322,9 @@ def decompose_task(task, complexity_threshold=3):
 
 Decomposition types:
 
-· Sequential: Subtasks solved one after another
-· Parallel: Subtasks can be solved independently
-· Hierarchical: Multi-level breakdown of complex problems
+- Sequential: Subtasks solved one after another
+- Parallel: Subtasks can be solved independently
+- Hierarchical: Multi-level breakdown of complex problems
 
 4. Task Merger (Task Aggregation)
 
@@ -345,10 +345,10 @@ graph LR
 
 Similarity criteria:
 
-· Semantic context similarity (>85%)
-· Overlapping categories and skills
-· Same complexity and requirements
-· Temporal creation proximity
+- Semantic context similarity (>85%)
+- Overlapping categories and skills
+- Same complexity and requirements
+- Temporal creation proximity
 
 🔄 Extended Interaction Scenarios
 
@@ -503,15 +503,15 @@ Phase 5: Optimization (Weeks 17-20)
 
 For the system overall:
 
-· Natural escalation: Simple tasks solved individually, complex ones collectively
-· Structured collaboration: Cells ensure effective interaction
-· Scalability: Decomposition allows distributing very complex problems
-· Efficiency: Merging eliminates redundant work
+- Natural escalation: Simple tasks solved individually, complex ones collectively
+- Structured collaboration: Cells ensure effective interaction
+- Scalability: Decomposition allows distributing very complex problems
+- Efficiency: Merging eliminates redundant work
 
 For agents:
 
-· Clear roles: Each participant understands their task in collective work
-· Expertise focus: Agents work in their areas of competence
-· Reduced cognitive load: Complex problems broken into understandable parts
+- Clear roles: Each participant understands their task in collective work
+- Expertise focus: Agents work in their areas of competence
+- Reduced cognitive load: Complex problems broken into understandable parts
 
 This approach transforms the node from a simple task dispatcher into a full-fledged platform for collective intelligence, where complex problems are solved through structured collaboration of complementary specialists.
